@@ -3,6 +3,8 @@
 #include <chrono>
 #include <thread>
 
+#include "..\includes\loop.h"
+
 int main() {
 	const unsigned int Attempts = 3;
 
@@ -37,7 +39,7 @@ int main() {
 			}
 			else {
 				std::cout << "Correct credentials!" << std::endl;
-				exit(EXIT_SUCCESS);
+				startLoop();
 			}
 		}
 
