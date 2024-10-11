@@ -1,7 +1,7 @@
 # Login System
 
 ## Usage
--  Insert username and password;
+-  Enter username and password;
 -  Verify credentials;
 -  'X' button to close the program.
 
